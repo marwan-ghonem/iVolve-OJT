@@ -1,4 +1,3 @@
-
 # 🔐 Lab 1: MySQL Backup Automation Using Shell Script and Cron
 
 ## 🎯 Objective
@@ -24,3 +23,7 @@ sudo dnf install -y https://dev.mysql.com/get/mysql80-community-release-el9-1.no
 sudo dnf install -y mysql-server
 sudo systemctl start mysqld
 sudo systemctl enable mysqld
+
+2️⃣ Secure MySQL and Set Root Password
+
+sudo mysql_secure_installation
